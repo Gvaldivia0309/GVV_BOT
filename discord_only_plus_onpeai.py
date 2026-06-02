@@ -10,4 +10,7 @@ oa_client = OpenAI(api_key=OPENAI_KEY)
 
 #ask openai - respond like a AeroSpace
 def call_openai(question):
+    # Call the OpenAI API
+  completion = oa_client.chat.completions.create(
+    model=''
   
